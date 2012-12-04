@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg24566"
+   version="1.1"
+   inkscape:version="0.48+devel r11908 custom"
+   sodipodi:docname="filters.svg">
+  <defs
+     id="defs24568">
+    <filter
+       id="NoiseL"
+       inkscape:label="Linear Noise"
+       inkscape:menu="NoiseL"
+       inkscape:menu-tooltip="Adds even RGBA random noise to a fill"
+       style="color-interpolation-filters:sRGB">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.40000000000000002"
+         numOctaves="4"
+         id="feTurbulence8244"
+         result="result1"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix8258"
+         type="saturate"
+         values="0"
+         in="result1"
+         result="result2" />
+      <feColorMatrix
+         id="feColorMatrix8294"
+         type="matrix"
+         values="0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.1 0 "
+         result="result3" />
+      <feComposite
+         id="feComposite8308"
+         in2="SourceAlpha"
+         operator="in" />
+      <feBlend
+         blend="normal"
+         id="feBlend8288"
+         in2="SourceGraphic"
+         mode="normal"
+         result="result4" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-366.42857"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg24566"
+     showgrid="false"
+     inkscape:window-width="1537"
+     inkscape:window-height="1178"
+     inkscape:window-x="2620"
+     inkscape:window-y="223"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata24571">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
