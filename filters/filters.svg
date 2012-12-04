@@ -22,7 +22,12 @@
        inkscape:label="Linear Noise"
        inkscape:menu="NoiseL"
        inkscape:menu-tooltip="Adds even RGBA random noise to a fill"
-       style="color-interpolation-filters:sRGB">
+       style="color-interpolation-filters:sRGB"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       filterUnits="objectBoundingBox">
       <feTurbulence
          type="fractalNoise"
          baseFrequency="0.40000000000000002"
@@ -61,15 +66,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-366.42857"
-     inkscape:cy="520"
+     inkscape:cx="410.71429"
+     inkscape:cy="451.42857"
      inkscape:document-units="px"
      inkscape:current-layer="svg24566"
      showgrid="false"
      inkscape:window-width="1537"
      inkscape:window-height="1178"
-     inkscape:window-x="2620"
-     inkscape:window-y="223"
+     inkscape:window-x="2072"
+     inkscape:window-y="191"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata24571">
