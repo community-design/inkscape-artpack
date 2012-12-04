@@ -20,9 +20,8 @@
     <filter
        id="NoiseL"
        inkscape:label="Linear Noise"
-       inkscape:menu="NoiseL"
+       inkscape:menu="Textures"
        inkscape:menu-tooltip="Adds even RGBA random noise to a fill"
-       style="color-interpolation-filters:sRGB"
        x="0"
        y="0"
        width="1"
@@ -44,7 +43,7 @@
       <feColorMatrix
          id="feColorMatrix8294"
          type="matrix"
-         values="0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.1 0 "
+         values="0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.1 0 0 0 0 0 0.2 0 "
          result="result3" />
       <feComposite
          id="feComposite8308"
@@ -66,8 +65,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="410.71429"
-     inkscape:cy="451.42857"
+     inkscape:cx="636.42858"
+     inkscape:cy="434.28571"
      inkscape:document-units="px"
      inkscape:current-layer="svg24566"
      showgrid="false"
