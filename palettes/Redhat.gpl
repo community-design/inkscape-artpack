@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Redhat
+Columns: 2
+#primary
+204  0    0	Pantone 1797
+163  0    0	Pantone 1805
+130  0    0	Pantone 1815
+0    0    0	Rich Black
+255  255  255	White
+#secondary
+0    65   83	Pantone 3035
+0    147  217	Pantone 2995
+91   198  232	Pantone 2985
+163  219  232	Pantone 2975
+#accent
+59   0    131	Pantone 2685
+236  122  8	Pantone 716
+122  184  0	Pantone 376
+0    122  135	Pantone 7474
+254  203  0	Pantone 116
